@@ -1,13 +1,9 @@
 <pre class='metadata'>
 Group: WHATWG
-Title: Browser Testing API
-Shortname: browser-test
-Editor: James Graham, Mozilla https://mozilla.org, james@hoppipolla.co.uk, https://hoppipolla.co.uk
-Boilerplate: conformance no
-Complain About: accidental-2119 yes, missing-example-ids yes
+H1: Test Utils
+Shortname: testutils
+Text Macro: TWITTER testutils
 Abstract: This document defines APIs that provide additional testing functionality in browsers
-Text Macro: COMMIT-SHA LOCAL COPY
-Text Macro: TWITTER _
 </pre>
 
 Introduction {#intro}
@@ -15,7 +11,7 @@ Introduction {#intro}
 
 Testing browsers often requires use of specialised API surface that is
 not suitable for exposing to web authors, for example because it could
-undermine platform invariants, or allow behaviour that could put users
+undermine platform invariants, or allow behavior that could put users
 at risk. This can make writing cross-browser tests difficult because
 each implementation of the web platform will have its own approach to
 defining such test APIs. The [[!WEBDRIVER|WebDriver]] standard
@@ -34,8 +30,7 @@ Infrastructure {#infrastructure}
 
 <p>This specification depends on the Infra Standard. [[!INFRA]]
 
-<p>This specification uses terminology from the IDL standard
-[[!WEBIDL]]
+<p>This specification uses terminology from the Web IDL standard. [[!WEBIDL]]
 
 Availability {#availability}
 ============================
@@ -69,3 +64,10 @@ The `gc()` method must run these steps:
         covering at least the [=entry Realm=].
 
     2.2 Resolve |p|
+
+
+<h2 class=no-num id=acknowledgements>Acknowledgments</h2>
+
+This standard is written by <a href=https://hoppipolla.co.uk>James Graham</a>
+(<a href=https://www.mozilla.org/>Mozilla</a>,
+<a href=mailto:james@hoppipolla.co.uk>james@hoppipolla.co.uk</a>).
