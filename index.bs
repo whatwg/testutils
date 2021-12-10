@@ -60,7 +60,7 @@ The `gc()` method must run these steps:
 
  2. Run the following [=in parallel=]:
 
-    2.1 Run implementation-defined steps to perform a garbage collection
+    2.1 Run <a>implementation-defined</a> steps to perform a garbage collection
         covering at least the <a spec=html>entry Realm</a>.
 
     2.2 Resolve |p|.
