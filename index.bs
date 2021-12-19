@@ -54,7 +54,7 @@ partial interface mixin WindowOrWorkerGlobalScope {
 };
 </xmp>
 
-The `gc()` method must run these steps:
+The <code>gc()</code> method must run these steps:
 
  1. Let |p| be a new promise.
 
