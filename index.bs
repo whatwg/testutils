@@ -50,7 +50,7 @@ interface TestUtils {
 };
 
 partial interface mixin WindowOrWorkerGlobalScope {
-  readonly attribute TestUtils testUtils;
+  [SameObject] readonly attribute TestUtils testUtils;
 };
 </xmp>
 
