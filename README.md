@@ -7,7 +7,7 @@ respect the [WHATWG Code of Conduct](https://whatwg.org/code-of-conduct).
 
 ## Contribution opportunities
 
-We'd love your help fixing issues in the TestUtils standard. Pull requests for typographical and
+We'd love your help fixing issues in the Test Utils standard. Pull requests for typographical and
 grammar errors are also most welcome.
 
 We'd be happy to mentor you through this process. If you're interested and need help getting
