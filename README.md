@@ -7,11 +7,12 @@ respect the [WHATWG Code of Conduct](https://whatwg.org/code-of-conduct).
 
 ## Contribution opportunities
 
-Folks notice minor and larger issues with the Test Utils Standard all the time and we'd love
-your help fixing those. Pull requests for typographical and grammar errors are also most welcome.
+We'd love your help fixing issues in the TestUtils standard. Pull requests for typographical and
+grammar errors are also most welcome.
 
 We'd be happy to mentor you through this process. If you're interested and need help getting
-started, leave a comment on the issue or ask around [on IRC](https://whatwg.org/irc).
+started, leave a comment on the issue or ask around 
+[on Matrix](https://matrix.to/#/#whatwg:matrix.org).
 
 ## Pull requests
 
