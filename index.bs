@@ -46,11 +46,11 @@ The TestUtils Object {#the-testutils-object}
 <xmp class=idl>
 [Exposed=(Window,Worker)]
 interface TestUtils {
-  Promise<undefined> gc();
+  [NewObject] Promise<undefined> gc();
 };
 
 partial interface mixin WindowOrWorkerGlobalScope {
-  readonly attribute TestUtils testUtils;
+  [SameObject] readonly attribute TestUtils testUtils;
 };
 </xmp>
 
