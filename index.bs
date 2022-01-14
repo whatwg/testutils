@@ -64,6 +64,10 @@ The {{testUtils/gc()}} method must run these steps:
 
 <h2 class=no-num id=acknowledgements>Acknowledgments</h2>
 
+Thanks to
+Kagami Sascha Rosylight
+for being Awesome!
+
 This standard is written by <a href=https://hoppipolla.co.uk>James Graham</a>
 (<a href=https://www.mozilla.org/>Mozilla</a>,
 <a href=mailto:james@hoppipolla.co.uk>james@hoppipolla.co.uk</a>).
