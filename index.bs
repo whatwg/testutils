@@ -45,16 +45,12 @@ The TestUtils Object {#the-testutils-object}
 
 <xmp class=idl>
 [Exposed=(Window,Worker)]
-interface TestUtils {
+namespace testUtils {
   [NewObject] Promise<undefined> gc();
-};
-
-partial interface mixin WindowOrWorkerGlobalScope {
-  [SameObject] readonly attribute TestUtils testUtils;
 };
 </xmp>
 
-The `gc()` method must run these steps:
+The {{testUtils/gc()}} method must run these steps:
 
  1. Let |p| be a new promise.
 
