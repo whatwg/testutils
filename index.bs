@@ -40,7 +40,7 @@ the default shipping configuration of user agents. They must only be
 enabled in testing configurations for example with special build
 flags, or when a specific non-default preference is set.
 
-The TestUtils Object {#the-testutils-object}
+The testUtils namespace {#the-testutils-object}
 ============================================
 
 <xmp class=idl>
