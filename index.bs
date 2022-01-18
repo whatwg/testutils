@@ -64,9 +64,12 @@ The {{TestUtils/gc()}} method must run these steps:
 
 <h2 class=no-num id=acknowledgements>Acknowledgments</h2>
 
-Thanks to
+Thanks to the following people who have contributed to the
+Test Utils standard:
+
 Kagami Sascha Rosylight
-for being awesome!
+
+You are awesome!
 
 This standard is written by <a href=https://hoppipolla.co.uk>James Graham</a>
 (<a href=https://www.mozilla.org/>Mozilla</a>,
