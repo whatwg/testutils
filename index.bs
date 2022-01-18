@@ -45,12 +45,12 @@ The testUtils namespace {#the-testutils-object}
 
 <xmp class=idl>
 [Exposed=(Window,Worker)]
-namespace testUtils {
+namespace TestUtils {
   [NewObject] Promise<undefined> gc();
 };
 </xmp>
 
-The {{testUtils/gc()}} method must run these steps:
+The {{TestUtils/gc()}} method must run these steps:
 
  1. Let |p| be a new promise.
 
