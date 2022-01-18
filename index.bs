@@ -40,21 +40,17 @@ the default shipping configuration of user agents. They must only be
 enabled in testing configurations for example with special build
 flags, or when a specific non-default preference is set.
 
-The TestUtils Object {#the-testutils-object}
+The TestUtils Namespace {#the-testutils-namespace}
 ============================================
 
 <xmp class=idl>
 [Exposed=(Window,Worker)]
-interface TestUtils {
+namespace TestUtils {
   [NewObject] Promise<undefined> gc();
-};
-
-partial interface mixin WindowOrWorkerGlobalScope {
-  [SameObject] readonly attribute TestUtils testUtils;
 };
 </xmp>
 
-The `gc()` method must run these steps:
+The {{TestUtils/gc()}} method must run these steps:
 
  1. Let |p| be a new promise.
 
@@ -67,6 +63,13 @@ The `gc()` method must run these steps:
 
 
 <h2 class=no-num id=acknowledgements>Acknowledgments</h2>
+
+Thanks to the following people who have contributed to the
+Test Utils standard:
+
+Kagami Sascha Rosylight
+
+You are awesome!
 
 This standard is written by <a href=https://hoppipolla.co.uk>James Graham</a>
 (<a href=https://www.mozilla.org/>Mozilla</a>,
