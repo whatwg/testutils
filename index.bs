@@ -6,6 +6,8 @@ Text Macro: TWITTER testutils
 Text Macro: LATESTRD 2022-03
 Abstract: This document defines APIs that provide additional testing functionality in browsers
 Translation: zh-Hans https://htmlspecs.com/testutils/
+Translation: ja https://jp.htmlspecs.com/testutils/
+Translation: ko https://ko.htmlspecs.com/testutils/
 </pre>
 
 Introduction {#intro}
