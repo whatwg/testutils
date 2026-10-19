@@ -1,4 +1,4 @@
-This repository hosts the [Test Utils Standard](https://testutils.spec.whatwg.org/).
+This repository hosts the [Test Utils Standard](https://testutils.spec.whatwg.org/). It is one of [many web standards](https://spec.whatwg.org/) developed by the [WHATWG community](https://whatwg.org/).
 
 ## Code of conduct
 
